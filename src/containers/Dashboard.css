@@ -1,0 +1,13 @@
+.Dash .table {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .Dash .table h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+  }
+  
+  .Dash .table p {
+    color: #999;
+  }
