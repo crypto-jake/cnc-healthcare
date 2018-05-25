@@ -3,7 +3,7 @@ import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
 import { Route, Redirect } from 'react-router'
 import "./Login.css";
 
-/*
+
 export default class Login extends Component {
   constructor(props) {
     super(props);
@@ -64,21 +64,5 @@ export default class Login extends Component {
 
 
     );
-  }
-}
-
-*/
-
-
-export default class Foo extends Component {
-
-  static get contextTypes() {
-    return {
-      router: React.PropTypes.object.isRequired,
-    };
-  }
-
-  handleClick() {
-    this.context.router.push('/Dashboard');
   }
 }
